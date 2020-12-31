@@ -1,3 +1,7 @@
 
 # Data files
 dataFiles/
+
+
+# Data file types
+*.csv
