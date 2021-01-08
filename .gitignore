@@ -5,3 +5,7 @@ dataFiles/
 
 # Data file types
 *.csv
+
+
+# macOs Files
+*.DS_Store
