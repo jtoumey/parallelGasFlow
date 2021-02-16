@@ -51,7 +51,7 @@ ylabel('y-Location [m]', 'fontsize', 16);
 % plot(fNum(:,2).*U0, etaNum.*blThickness, '-o')
 
 legend('Simulation: topAir', 'Blasius Solution', 'Location', 'northwest', 'fontsize', 16);
-saveas(gcf, 'topAirVsBlasius.png');
+saveas(gcf, 'topAirVsBlasius.pdf');
 
 
 
