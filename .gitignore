@@ -1,4 +1,8 @@
 
+# OpenFOAM Log Files
+*.o*
+*.e*
+
 # Data files
 dataFiles/
 
