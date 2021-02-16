@@ -91,11 +91,11 @@ eq1 = htc1.*(topAirT0 - solidTopAirIntT(end, 2:end)); %topAirT)%topAirT(:, 2))
 eq2 = htc2.*(solidBottomAirIntT(end, 2:end) - bottomAirT0);
 
 figure (3)
-plot(xLength, eq1, '-+', 'linewidth', 2)
+plot(xLength./0.2, eq1, '-+', 'linewidth', 2)
 hold on
-plot(xLength, eq2, '-o', 'linewidth', 2)
+plot(xLength./0.2, eq2, '-o', 'linewidth', 2)
 
-xlabel('x Location (m)')
+xlabel('x/L')
 legend('topAir: $h_1(T_1 - T_{s1})$', 'bottomAir: $h_2 (T_{s2} - T_2)$', 'interpreter', 'latex', 'fontsize', 18)
 saveas(gcf, 'htcBalance.pdf')
 
